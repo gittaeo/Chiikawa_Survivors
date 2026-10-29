@@ -6,17 +6,35 @@
 
 > **로컬 팬게임 시제품입니다.** 캐릭터 원본 스프라이트는 재배포를 허용하지 않아 이 저장소에 포함하지 않았습니다. 아래 실행 준비와 [에셋 출처·이용 조건](docs/ASSETS.md)을 확인해 주세요. 공개 배포·상업적 이용 허락을 확보한 프로젝트가 아닙니다.
 
-## 실제 플레이 화면
+## 게임 바로 하기
 
-### 전투 · 이동 · 토벌
+[공유 게임 플레이](https://gittaeo.github.io/Chiikawa_Survivors/) · [전체 캐릭터 도감](https://gittaeo.github.io/Chiikawa_Survivors/characters.html)
 
-![최신 실제 게임플레이](docs/screenshots/gameplay.png)
+## 실제 게임플레이
 
-### 레벨업 · 강화 선택
+### 전투 · 보스 토벌
 
-![무기 강화와 능력 선택](docs/screenshots/upgrade-cinematic.png)
+![우사기 실제 플레이 · 중간 보스 전투](docs/screenshots/gameplay.png)
 
-로컬 브라우저에서 촬영한 실제 화면입니다. 화면 속 캐릭터 권리는 각 원권리자에게 있습니다.
+### 무기 강화 · 능력 선택
+
+![실제 무기 강화 · 능력 선택 화면](docs/screenshots/upgrade-cinematic.png)
+
+### 로비 · 캐릭터와 모험 시작
+
+![최신 캐릭터 로비](docs/screenshots/lobby-cinematic.png)
+
+### 공유 페이지 · 원래 캐릭터 복원
+
+![공유 페이지에서 우사기·치이카와·하치와레 표시 확인](docs/screenshots/characters-restored.png)
+
+## 전체 캐릭터 모아보기 · 11명
+
+우사기 · 치이카와 · 하치와레 · 랏코 · 모몽가 · 시사 · 쿠리만주 · 후루혼야 · 세이렌 · 아노코 · 데카츠요.
+
+![캐릭터 11명 전체 · 무기와 고유기 및 시너지](docs/screenshots/characters-latest.png)
+
+실제 게임 렌더러로 촬영한 이미지입니다. 캐릭터 권리는 각 원권리자에게 있으며, 전투 수치·고유기는 팬게임용 창작입니다.
 
 ## 주요 기능
 
@@ -96,9 +114,9 @@ node server.cjs
 
 아래는 최신 게임 렌더러로 촬영한 11명 캐릭터 도감입니다. 무기·고유기·시너지를 함께 확인할 수 있습니다. **전투 수치와 고유기는 팬게임용 창작**입니다.
 
-![최신 캐릭터 11명 · 무기와 고유기](docs/screenshots/characters-latest.png)
+[상단의 전체 캐릭터 이미지 보기](#전체-캐릭터-모아보기--11명)
 
-로컬 실행 후 [캐릭터 도감](http://localhost:4173/characters.html)에서도 볼 수 있습니다.
+[공유 캐릭터 도감](https://gittaeo.github.io/Chiikawa_Survivors/characters.html)에서도 전체 캐릭터를 볼 수 있습니다.
 
 | 캐릭터 | 기본 무기 모티브 / 팬게임 무기 | 고유기 |
 |---|---|---|
