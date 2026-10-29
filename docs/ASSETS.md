@@ -28,3 +28,7 @@
 - [공식 사스마타 상품 자료](https://chiikawamarket.jp/products/4970381627768)
 
 별도의 상업적 이용 허락이나 법률 검토를 완료한 저장소가 아닙니다.
+
+## 생성 배경
+
+`assets/environments/golden-forest.png`와 `moon-cavern.png`는 built-in ImageGen으로 새로 생성한 배경입니다. 숲의 따뜻한 햇살과 섬 동굴의 청록빛을 모티브로 하며, 원작 영상에서 추출한 프레임이 아닙니다. 프롬프트 방향은 README의 Visual update에 기록했습니다.

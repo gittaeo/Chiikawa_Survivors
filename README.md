@@ -194,3 +194,24 @@ docs/ASSETS.md              출처·이용 조건
 - 코드의 전투 규칙, 무기 효과, UI, 맵 배치, 합성 효과음은 팬게임을 위해 작성했습니다. 애니메이션 음성·OST·영상 캡처는 포함하지 않습니다.
 
 **원본 저장소는 상업적 이용과 재배포를 허락하지 않습니다.** 이 저장소 공개가 원작 IP나 팬 아트의 이용 권리를 부여하지 않습니다. 공개 배포·수익화에는 필요한 별도 허락 또는 독자 에셋으로의 교체가 필요합니다. 상세 내용은 [에셋 출처·이용 조건](docs/ASSETS.md)을 참고해 주세요.
+
+## Visual update
+
+The cavern stage now uses a generated overhead illustration, with teal lighting and a gold-accented interface. Upgrade cards show current and next combat stats, rank pips, evolution prerequisite progress, and a distinct treatment when the selected upgrade completes an evolution. Weapon and unique cards show the selected character.
+
+Background: `assets/environments/moon-cavern.png`, generated with built-in ImageGen. Art direction: overhead magical island cavern, broad sandy jade combat floor, turquoise pools, lavender rocks, warm light shafts; no characters, UI, or lettering. This is a new game illustration, not an extracted animation frame.
+
+The meadow also uses `assets/environments/golden-forest.png` (built-in ImageGen): overhead emerald island forest clearing, open moss-and-sand combat ground, golden sun rays, perimeter canopy and flowers; no text or characters. Camera view width increased from 500 to 580 world units without altering saved world coordinates.
+
+![Upgrade selection](docs/screenshots/upgrade-cinematic.png)
+![Cavern combat](docs/screenshots/cavern-cinematic.png)
+
+## 시각 품질 개선
+
+- 숲·동굴에 AI로 새로 제작한 게임 배경을 적용하고 카메라 시야를 넓혔습니다.
+- 무기·능력 선택 카드에 캐릭터 그림, 실제 강화 전후 수치, 단계 표시, 진화 재료 진행도와 선택 효과를 추가했습니다.
+- 몬스터 입체 음영, 박쥐 날갯짓, 정예 체력 표시, 공격 발광과 환경 입자를 추가했습니다.
+- 로비·HUD·친구 목록·공방의 청록색/금색 테마를 통일했습니다.
+- 검증: 단위 테스트 21개 통과, 우사기·하치와레·치이카와 15분 완주 및 6종 진화 확인.
+
+![개선된 로비](docs/screenshots/lobby-cinematic.png)
