@@ -1,0 +1,14 @@
+{
+  "name": "chiikawa-local-fan-adventure",
+  "version": "0.4.0",
+  "private": true,
+  "description": "A local Chiikawa fan survival prototype with 15-minute runs, unique abilities and evolutions.",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.cjs",
+    "assets:fetch": "node scripts/fetch-assets.mjs",
+    "assets:check": "node scripts/fetch-assets.mjs --check",
+    "test": "node --test tests/rescue.test.mjs",
+    "test:playthrough": "node tests/playthrough.mjs"
+  }
+}

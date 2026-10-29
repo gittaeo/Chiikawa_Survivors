@@ -1,0 +1,16 @@
+# Third-party sprites are not licensed for redistribution.
+/assets/chiikawa/
+/archive/
+/research/
+/app.mjs
+/game.mjs
+/tests/game.test.mjs
+/preview.png
+/*-preview.png
+/chiikawa-*.png
+node_modules/
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
