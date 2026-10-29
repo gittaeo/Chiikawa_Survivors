@@ -10,7 +10,7 @@
 
 | 전투 · 이동 · 토벌 | 레벨업 · 강화 선택 |
 |:---:|:---:|
-| <img src="docs/screenshots/gameplay.png" width="300" alt="세이렌으로 플레이하는 실제 전투 화면"> | <img src="docs/screenshots/upgrade.png" width="300" alt="무기와 능력을 강화하는 실제 선택 화면"> |
+| <img src="docs/screenshots/gameplay.png" width="300" alt="우사기로 중간 보스와 전투하는 최신 실제 플레이 화면"> | <img src="docs/screenshots/upgrade-cinematic.png" width="300" alt="무기와 능력을 강화하는 실제 선택 화면"> |
 
 로컬 브라우저에서 촬영한 실제 화면입니다. 화면 속 캐릭터 권리는 각 원권리자에게 있습니다.
 
@@ -90,21 +90,25 @@ node server.cjs
 
 ## 캐릭터 11명
 
-아래 움직이는 미리보기는 [원본 팬 아트 저장소](https://github.com/heelee912/chiikawa-dots-pets)의 GIF를 직접 참조합니다. 이미지 파일을 이 저장소에 다시 업로드하지 않았습니다. **전투 수치와 고유기는 팬게임용 창작**이며 원작의 공식 기술 목록을 뜻하지 않습니다.
+아래는 최신 게임 렌더러로 촬영한 11명 캐릭터 도감입니다. 무기·고유기·시너지를 함께 확인할 수 있습니다. **전투 수치와 고유기는 팬게임용 창작**입니다.
 
-| 미리보기 | 캐릭터 | 기본 무기 모티브 / 팬게임 무기 | 고유기 |
-|:---:|---|---|---|
-| <img src="https://raw.githubusercontent.com/heelee912/chiikawa-dots-pets/bb96582f525fbdf88a236b4703433ae92bfd5888/assets/motions/usagi/idle.gif" width="76" alt="우사기 미리보기"> | **우사기**<br><code>usagi</code> | 양끝 토벌봉 | **야하! 번개질주**<br>8초간 공격 가속 + 주변 번개 폭발 |
-| <img src="https://raw.githubusercontent.com/heelee912/chiikawa-dots-pets/bb96582f525fbdf88a236b4703433ae92bfd5888/assets/motions/chiikawa/idle.gif" width="76" alt="치이카와 미리보기"> | **치이카와**<br><code>chiikawa</code> | 분홍 사스마타 | **작지만 용감한 방패**<br>체력 회복 + 10초간 보호막 |
-| <img src="https://raw.githubusercontent.com/heelee912/chiikawa-dots-pets/bb96582f525fbdf88a236b4703433ae92bfd5888/assets/motions/hachiware/idle.gif" width="76" alt="하치와레 미리보기"> | **하치와레**<br><code>hachiware</code> | 파란 사스마타 | **어떻게든 된다!**<br>12초간 친구 분신이 함께 공격 |
-| <img src="https://raw.githubusercontent.com/heelee912/chiikawa-dots-pets/bb96582f525fbdf88a236b4703433ae92bfd5888/assets/motions/rakko/idle.gif" width="76" alt="랏코 미리보기"> | **랏코**<br><code>rakko</code> | 검 | **토벌 선생의 일섬**<br>넓은 범위 3연속 베기 + 8초간 치명타 |
-| <img src="https://raw.githubusercontent.com/heelee912/chiikawa-dots-pets/bb96582f525fbdf88a236b4703433ae92bfd5888/assets/motions/momonga/idle.gif" width="76" alt="모몽가 미리보기"> | **모몽가**<br><code>momonga</code> | 팬게임 바람 지팡이 | **나를 봐! 회오리**<br>10초간 가속 + 반복하는 바람 공격 |
-| <img src="https://raw.githubusercontent.com/heelee912/chiikawa-dots-pets/bb96582f525fbdf88a236b4703433ae92bfd5888/assets/motions/shisa/idle.gif" width="76" alt="시사 미리보기"> | **시사**<br><code>shisa</code> | 팬게임 국자 | **따끈한 라멘 한 그릇**<br>즉시 회복 + 10초간 회복·열기 장판 |
-| <img src="https://raw.githubusercontent.com/heelee912/chiikawa-dots-pets/bb96582f525fbdf88a236b4703433ae92bfd5888/assets/motions/kurimanju/idle.gif" width="76" alt="쿠리만주 미리보기"> | **쿠리만주**<br><code>kurimanju</code> | 팬게임 간식 방망이 | **든든한 한잔**<br>12초간 공격력 두 배 · 받는 피해 감소 |
-| <img src="https://raw.githubusercontent.com/heelee912/chiikawa-dots-pets/bb96582f525fbdf88a236b4703433ae92bfd5888/assets/motions/furuhonya/idle.gif" width="76" alt="후루혼야 미리보기"> | **후루혼야**<br><code>furuhonya</code> | 팬게임 책 마법 | **이야기책의 폭풍**<br>현재 위치에 12초간 책 마법진 설치 |
-| <img src="https://raw.githubusercontent.com/heelee912/chiikawa-dots-pets/bb96582f525fbdf88a236b4703433ae92bfd5888/assets/motions/siren/idle.gif" width="76" alt="세이렌 미리보기"> | **세이렌**<br><code>siren</code> | 팬게임 물결창 | **넘실넘실 큰 파도**<br>넓은 파도 공격 + 8초간 적 감속 |
-| <img src="https://raw.githubusercontent.com/heelee912/chiikawa-dots-pets/bb96582f525fbdf88a236b4703433ae92bfd5888/assets/motions/anoko/idle.gif" width="76" alt="아노코 미리보기"> | **아노코**<br><code>anoko</code> | 팬게임 발톱 | **배고픈 사냥**<br>주변을 할퀴고 회복 · 8초간 흡혈 공격 |
-| <img src="https://raw.githubusercontent.com/heelee912/chiikawa-dots-pets/bb96582f525fbdf88a236b4703433ae92bfd5888/assets/motions/dekatsuyo/idle.gif" width="76" alt="데카츠요 미리보기"> | **데카츠요**<br><code>dekatsuyo</code> | 팬게임 큰 발톱 | **엄청 커졌다!**<br>12초간 거대화 · 접촉 충격파 · 피해 감소 |
+![최신 캐릭터 11명 · 무기와 고유기](docs/screenshots/characters-latest.png)
+
+로컬 실행 후 [캐릭터 도감](http://localhost:4173/characters.html)에서도 볼 수 있습니다.
+
+| 캐릭터 | 기본 무기 모티브 / 팬게임 무기 | 고유기 |
+|---|---|---|
+| **우사기**<br><code>usagi</code> | 양끝 토벌봉 | **야하! 번개질주**<br>8초간 공격 가속 + 주변 번개 폭발 |
+| **치이카와**<br><code>chiikawa</code> | 분홍 사스마타 | **작지만 용감한 방패**<br>체력 회복 + 10초간 보호막 |
+| **하치와레**<br><code>hachiware</code> | 파란 사스마타 | **어떻게든 된다!**<br>12초간 친구 분신이 함께 공격 |
+| **랏코**<br><code>rakko</code> | 검 | **토벌 선생의 일섬**<br>넓은 범위 3연속 베기 + 8초간 치명타 |
+| **모몽가**<br><code>momonga</code> | 팬게임 바람 지팡이 | **나를 봐! 회오리**<br>10초간 가속 + 반복하는 바람 공격 |
+| **시사**<br><code>shisa</code> | 팬게임 국자 | **따끈한 라멘 한 그릇**<br>즉시 회복 + 10초간 회복·열기 장판 |
+| **쿠리만주**<br><code>kurimanju</code> | 팬게임 간식 방망이 | **든든한 한잔**<br>12초간 공격력 두 배 · 받는 피해 감소 |
+| **후루혼야**<br><code>furuhonya</code> | 팬게임 책 마법 | **이야기책의 폭풍**<br>현재 위치에 12초간 책 마법진 설치 |
+| **세이렌**<br><code>siren</code> | 팬게임 물결창 | **넘실넘실 큰 파도**<br>넓은 파도 공격 + 8초간 적 감속 |
+| **아노코**<br><code>anoko</code> | 팬게임 발톱 | **배고픈 사냥**<br>주변을 할퀴고 회복 · 8초간 흡혈 공격 |
+| **데카츠요**<br><code>dekatsuyo</code> | 팬게임 큰 발톱 | **엄청 커졌다!**<br>12초간 거대화 · 접촉 충격파 · 피해 감소 |
 
 ### 캐릭터별 시너지
 
