@@ -8,9 +8,13 @@
 
 ## 실제 플레이 화면
 
-| 전투 · 이동 · 토벌 | 레벨업 · 강화 선택 |
-|:---:|:---:|
-| <img src="docs/screenshots/gameplay.png" width="300" alt="우사기로 중간 보스와 전투하는 최신 실제 플레이 화면"> | <img src="docs/screenshots/upgrade-cinematic.png" width="300" alt="무기와 능력을 강화하는 실제 선택 화면"> |
+### 전투 · 이동 · 토벌
+
+![최신 실제 게임플레이](docs/screenshots/gameplay.png)
+
+### 레벨업 · 강화 선택
+
+![무기 강화와 능력 선택](docs/screenshots/upgrade-cinematic.png)
 
 로컬 브라우저에서 촬영한 실제 화면입니다. 화면 속 캐릭터 권리는 각 원권리자에게 있습니다.
 
